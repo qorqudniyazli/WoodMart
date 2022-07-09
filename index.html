@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WoodMart</title>
+    <link
+      rel="stylesheet"
+      href="assets/bootsrap/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/sass/style.css" />
+    <link rel="stylesheet" href="assets/font/css/all.css" />
+  </head>
+  <body>
+    <header class="light" id="mode12">
+      <div class="divtop">
+        <div class="container">
+          <div class="header-top">
+            <div class="header-top-right">
+              <div>
+                <button
+                  style="border: none; background-color: #83b735; color: white"
+                  type="button"
+                >
+                  ENGLISH
+                </button>
+              </div>
+              <button
+              id="modeBtn"
+                style="border: none; background-color: #83b735; color: white"
+                type="button"
+              >
+                DARK
+              </button>
+              <div>
+                <p><a href="#">COUNTRY</a></p>
+              </div>
+              <p>FREE SHIPPING FOR ALL ORDERS OF $150</p>
+            </div>
+            <div class="header-top-left">
+              <div class="sosial">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+              <div class="divtag text-center">
+                <div>
+                  <p><a href="#">NEWSLETTER</a></p>
+                </div>
+                <p><a href="#">NEWSLETTER</a></p>
+                <div>
+                  <p><a href="#">FAQS</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-center">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg bg-white">
+            <a class="navbar-brand" href="#"
+              ><img src="assets/img/wood-logo-dark.svg" alt=""
+            /></a>
+            <div id="inbtn" class="d-flex mx-4" role="search">
+              <input
+                id="input"
+                class="form-control"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-secondary" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+            <div class="div">
+              <button
+                style="
+                  background-color: #fff;
+                  border: none;
+                  font-size: 13px;
+                  font-weight: 600;
+                "
+                type="button"
+              >
+                LOGIN/REGISTER
+              </button>
+              <i class="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+              <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <nav id="nav" class="mynav navbar navbar-light navbar-expand-lg bg-white">
+          <div class="container">
+            <div
+              id="menu"
+              style="background-color: #83b735; width: 270px; height: 54px"
+              class="d-flex align-items-center justify-content-around"
+            >
+              <p class="mb-0 text-light">
+                <i class="fa-solid fa-bars p-0 m-0"></i> BROWSE CATEGORIES
+              </p>
+              <button
+                id="arrow1"
+                style="border: none; background-color: #83b735; color: #7f7f7f"
+                type="button"
+              >
+                <i class="fa-solid fa-angle-down text-light"></i>
+              </button>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    style="color: #83b735"
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#"
+                    >Home
+                    <i style="color: #83b735" class="fa-solid fa-angle-down"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Shop</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="active nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Blog
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Pages</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Elements</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Buy</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div id="myspecial" class="d-flex align-items-center">
+              <p>
+                <a href="#"
+                  ><span><b>SPECIAL OFFER</b></span></a
+                >
+              </p>
+              <div>|</div>
+              <p>
+                <a href="#"><b>PURCHASE THEME</b></a>
+              </p>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="hero" class="light1">
+      <div class="row">
+        <div id="menu" class="menu12">
+          <div
+            id="menu1"
+            style="width: 268px; height: 45px"
+            class="d-flex align-items-center justify-content-between px-3"
+          >
+            <p class="mb-0 d-flex align-items-center justify-content-between">
+              <img
+                src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/chair-1.svg"
+                alt="Furniture"
+                width="18"
+                height="18"
+                class="wd-nav-img text-dark category-icon"
+              />
+              Furniture
+            </p>
+            <a href="#"
+              ><i style="color: #e8e8e8" class="fa-solid fa-angle-right"></i
+            ></a>
+          </div>
+
+          <div
+            id="menu1"
+            style="width: 268px; height: 45px"
+            class="d-flex align-items-center justify-content-between px-3"
+          >
+            <p class="mb-0 d-flex align-items-center justify-content-between">
+              <img
+                src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/knives-1.svg"
+                alt="Cooking"
+                width="18"
+                height="18"
+                class="wd-nav-img category-icon"
+              />
+              Cooking
+            </p>
+            <a href="#"
+              ><i style="color: #e8e8e8" class="fa-solid fa-angle-right"></i
+            ></a>
+          </div>
+
+          <div
+            id="menu1"
+            style="width: 268px; height: 45px"
+            class="d-flex align-items-center justify-content-between px-3"
+          >
+            <p class="mb-0 d-flex align-items-center justify-content-between">
+              <img
+                src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/flower-1.svg"
+                alt="Accessories"
+                width="18"
+                height="18"
+                class="wd-nav-img category-icon"
+              />
+              Accessories
+            </p>
+            <a href="#"
+              ><i style="color: #e8e8e8" class="fa-solid fa-angle-right"></i
+            ></a>
+          </div>
+
+          <div
+            id="menu1"
+            style="width: 268px; height: 45px"
+            class="d-flex align-items-center justify-content-between px-3"
+          >
+            <p class="mb-0 d-flex align-items-center justify-content-between">
+              <img
+                src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/003-shirt.svg"
+                alt="Fashion"
+                width="18"
+                height="18"
+                class="wd-nav-img category-icon"
+              />
+              Fashion
+            </p>
+            <a href="#"
+              ><i style="color: #e8e8e8" class="fa-solid fa-angle-right"></i
+            ></a>
+          </div>
+
+          <div
+            id="menu1"
+            style="width: 268px; height: 45px"
+            class="d-flex align-items-center justify-content-between px-3"
+          >
+            <p class="mb-0 d-flex align-items-center justify-content-between">
+              <img
+                src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/clock-1.svg"
+                alt="Clocks"
+                width="18"
+                height="18"
+                class="wd-nav-img category-icon"
+              />
+              Cloks
+            </p>
+            <a href="#"
+              ><i style="color: #e8e8e8" class="fa-solid fa-angle-right"></i
+            ></a>
+          </div>
+
+          <div
+            id="menu1"
+            style="width: 268px; height: 45px"
+            class="d-flex align-items-center justify-content-between px-3"
+          >
+            <p class="mb-0 d-flex align-items-center justify-content-between">
+              <img
+                src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/light-bulb-1.svg"
+                alt="Lighting"
+                width="18"
+                height="18"
+                class="wd-nav-img category-icon"
+              />
+              Lighting
+            </p>
+            <a href="#"
+              ><i style="color: #e8e8e8" class="fa-solid fa-angle-right"></i
+            ></a>
+          </div>
+
+          <div
+            id="menu1"
+            style="width: 268px; height: 45px"
+            class="d-flex align-items-center justify-content-between px-3"
+          >
+            <p class="mb-0 d-flex align-items-center justify-content-between">
+              <img
+                src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/rocking-horse-1.svg"
+                alt="Toys"
+                width="18"
+                height="18"
+                class="wd-nav-img category-icon"
+              />
+              Toys
+            </p>
+            <a href="#"
+              ><i style="color: #e8e8e8" class="fa-solid fa-angle-right"></i
+            ></a>
+          </div>
+
+          <div
+            id="menu1"
+            style="width: 268px; height: 45px"
+            class="d-flex align-items-center justify-content-between px-3"
+          >
+            <p class="mb-0 d-flex align-items-center justify-content-between">
+              <img
+                src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/biscuit.svg"
+                alt="Hand Made"
+                width="18"
+                height="18"
+                class="wd-nav-img category-icon"
+              />
+              Hand Made
+            </p>
+            <a href="#"
+              ><i style="color: #e8e8e8" class="fa-solid fa-angle-right"></i
+            ></a>
+          </div>
+
+          <div
+            id="menu1"
+            style="width: 268px; height: 45px"
+            class="d-flex align-items-center justify-content-between px-3"
+          >
+            <p class="mb-0 d-flex align-items-center justify-content-between">
+              <img
+                src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/002-hand-bag.svg"
+                alt="Minimalism"
+                width="18"
+                height="18"
+                class="wd-nav-img category-icon"
+              />
+              Minimalism
+            </p>
+            <a href="#"
+              ><i style="color: #e8e8e8" class="fa-solid fa-angle-right"></i
+            ></a>
+          </div>
+
+          <div
+            id="menu1"
+            style="width: 268px; height: 45px"
+            class="d-flex align-items-center justify-content-between px-3"
+          >
+            <p class="mb-0 d-flex align-items-center justify-content-between">
+              <img
+                src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/004-game-console.svg"
+                alt="Electronics"
+                width="18"
+                height="18"
+                class="wd-nav-img category-icon"
+              />
+              Electronics
+            </p>
+            <a href="#"
+              ><i style="color: #e8e8e8" class="fa-solid fa-angle-right"></i
+            ></a>
+          </div>
+
+          <div
+            id="menu1"
+            style="width: 268px; height: 45px"
+            class="d-flex align-items-center justify-content-between px-3"
+          >
+            <p class="mb-0 d-flex align-items-center justify-content-between">
+              <img
+                src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/break.svg"
+                alt="Cars"
+                width="18"
+                height="18"
+                class="wd-nav-img category-icon"
+              />
+              Cars
+            </p>
+            <a href="#"
+              ><i style="color: #e8e8e8" class="fa-solid fa-angle-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6">
+          <div
+            id="picture"
+            style="height: 100%"
+            class="d-flex text-center justify-content-center flex-column"
+          >
+            <div class="mb-2 mt-2">
+              <h5><b>CAPPALLINI</b></h5>
+            </div>
+
+            <div class="mb-2 d-flex flex-column">
+              <h1>
+                <b
+                  >Wooden <br />
+                  Launge Chairs</b
+                >
+              </h1>
+            </div>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
+              Illum commodi at corporis.
+            </p>
+            <h3>$999.00</h3>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6">
+          <img src="assets/img/slider.jpg" alt="" width="80%" />
+        </div>
+      </div>
+    </section>
+
+    <div id="secOne" class="light2">
+      <div class="container">
+        <div class="text-center mt-5">
+          <p>WOODMART COLLECTIONS</p>
+          <h2>FEATURED CATEGORIES</h2>
+          <p>WoodMart is a powerful eCommerce theme for WordPress.</p>
+        </div>
+
+        <div class="gallery">
+          <div class="col-12 d-flex justify-content-between">
+            <div class="col-6">
+              <a href="#"
+                ><img class="img-fluid" src="./assets/img/img1.jpg" alt=""
+              /></a>
+            </div>
+            <div class="col-6">
+              <div class="col-12 d-flex justify-content-between">
+                <div class="col-6">
+                  <a href="#"
+                    ><img class="img-fluid" src="assets/img/img2.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="col-6">
+                  <a href="#"
+                    ><img class="img-fluid" src="assets/img/img3.jpg" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="col-12 mt-3 d-flex justify-content-between">
+                <div class="col-6">
+                  <a href="#"
+                    ><img class="img-fluid" src="assets/img/img4.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="col-6">
+                  <a href="#"
+                    ><img class="img-fluid" src="assets/img/img5.jpg" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="secTwo" class="light3">
+      <div class="container">
+        <div class="row d-flex justify-content-around">
+          <div class="mytext text-center mt-5">
+            <p>WOODEN ACCESSORIES</p>
+            <h2>FEATURED PRODUCTS</h2>
+            <p>Visit our shop to see amazing creations from our designers.</p>
+            <div class="div">
+              <a class="mx-3" href="#">BEST SELLERS</a>
+              <a class="mx-3" href="#">FEATURED</a>
+              <a class="mx-3" href="#">SALES</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-3 pt-2">
+            <div class="card">
+              <a id="picture" href="#"
+                ><img src="assets/img/pctr1.jpg" class="card-img-top" alt=""
+              /></a>
+              <div class="myicon px-3">
+                <i class="fa-solid fa-arrow-right-arrow-left py-3"></i>
+              </div>
+              <div class="mycard card-body text-center">
+                <p class="card-title text-dark">Wooden single drawer</p>
+                <p>Furniture</p>
+                <a href="#"><h6>$249.00 – $399.00</h6></a>
+                <div class="myhidesection box-hide">
+                  <p style="color: #7f7f7f" class="card-text text-center">
+                    Placerat tempor dolor eu leo ullamcorper et magnis habitant
+                    ultrices consectetur arcu nulla mattis fermentum adipiscing
+                    a et bibendum sed platea malesuada eget vestibulum tempor
+                    dolor eu leo ullamcorper et magnis habitant ultrices
+                    consectetur.
+                  </p>
+                  <div class="d-flex justify-content-around">
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <button
+                      style="background-color: #83b735; border: 0; color: #fff"
+                      type="button"
+                    >
+                      <b>VIEW PRODUCTS</b>
+                    </button>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-3 pt-2">
+            <div class="card">
+              <a id="picture" href="#"
+                ><img
+                  id="pctr1"
+                  src="assets/img/pctr2(1).jpg"
+                  class="card-img-top"
+                  alt=""
+              /></a>
+              <div
+                class="myicon d-flex align-items-center justify-content-between py-3 px-3"
+              >
+                <div class="buttons pt-3">
+                  <button
+                    id="btn1"
+                    style="
+                      background-color: #f0deba;
+                      border: none;
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                    "
+                    type="button"
+                  ></button>
+                  <button
+                    id="btn2"
+                    style="
+                      background-color: black;
+                      border: none;
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                    "
+                    type="button"
+                  ></button>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left pt-3"></i>
+              </div>
+              <div class="mycard card-body text-center">
+                <p class="card-title text-dark">Smart watches wood edition</p>
+                <p>Accessories, Clocks</p>
+                <a href="#"><h6>$599.00</h6></a>
+                <div class="myhidesection box-hide">
+                  <p style="color: #7f7f7f" class="card-text text-center">
+                    Himenaeos parturient nam a justo placerat lorem erat pretium
+                    a fusce pharetra pretium enim sagittis ut nunc neque
+                    torquent sem a leo. Dictumst himenaeos primis torquent
+                    ridiculus.
+                  </p>
+                  <div class="d-flex justify-content-around">
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <button
+                      style="background-color: #83b735; border: 0; color: #fff"
+                      type="button"
+                    >
+                      <b>VIEW PRODUCTS</b>
+                    </button>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-3 pt-2">
+            <div class="card">
+              <a id="picture" href="#"
+                ><img
+                  id="pctr2"
+                  src="assets/img/pctr3(1).jpg"
+                  class="card-img-top"
+                  alt=""
+              /></a>
+              <div
+                class="myicon d-flex align-items-center justify-content-between py-3 px-3"
+              >
+                <div class="buttons pt-3">
+                  <button
+                    id="btn3"
+                    style="
+                      background-color: black;
+                      border: none;
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                    "
+                    type="button"
+                  ></button>
+                  <button
+                    id="btn4"
+                    style="
+                      background-color: blue;
+                      border: none;
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                    "
+                    type="button"
+                  ></button>
+                  <button
+                    id="btn5"
+                    style="
+                      background-color: grey;
+                      border: none;
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                    "
+                    type="button"
+                  ></button>
+                  <button
+                    id="btn6"
+                    style="
+                      background-color: green;
+                      border: none;
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                    "
+                    type="button"
+                  ></button>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left pt-3"></i>
+              </div>
+              <div class="mycard card-body text-center">
+                <p class="card-title text-dark">Panton tunior chair</p>
+                <p>Furniture</p>
+                <a href="#"><h6>$199.00</h6></a>
+                <div class="myhidesection box-hide">
+                  <p style="color: #7f7f7f" class="card-text text-center">
+                    Placerat tempor dolor eu leo ullamcorper et magnis habitant
+                    ultrices consectetur arcu nulla mattis fermentum adipiscing
+                    a et bibendum sed platea malesuada eget vestibulum.
+                  </p>
+                  <div class="d-flex justify-content-around">
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <button
+                      style="background-color: #83b735; border: 0; color: #fff"
+                      type="button"
+                    >
+                      <b>VIEW PRODUCTS</b>
+                    </button>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-3 pt-2">
+            <div class="card">
+              <a id="picture" href="#"
+                ><img src="assets/img/pctr4.jpg" class="card-img-top" alt=""
+              /></a>
+              <div class="myicon px-3">
+                <i class="fa-solid fa-arrow-right-arrow-left py-3"></i>
+              </div>
+              <div class="mycard card-body text-center">
+                <p class="card-title text-dark">Decoration wooden present</p>
+                <p>Accessories</p>
+                <a href="#"><h6>$89.00</h6></a>
+                <div class="myhidesection box-hide">
+                  <p style="color: #7f7f7f" class="card-text text-center">
+                    Nam gravida vulputate est venenatis eu at ullamcorper
+                    consectetur parturient suspendisse a elit lobortis ut
+                    convallis vestibulum vulputate nunc praesent mattis sem
+                    faucibus risus sociosqu.Dapibus curae a ac vestibulum a
+                    magnis ullamcorper orci a iaculis adipiscing augue a massa a
+                    torquent feugiat a.Scelerisque vestibulum.
+                  </p>
+                  <div class="d-flex justify-content-around">
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <button
+                      style="background-color: #83b735; border: 0; color: #fff"
+                      type="button"
+                    >
+                      <b>VIEW PRODUCTS</b>
+                    </button>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-3 pt-2">
+            <div class="card">
+              <a id="picture" href="#"
+                ><img src="assets/img/pctr5.jpg" class="card-img-top" alt=""
+              /></a>
+              <div class="myicon px-3">
+                <i class="fa-solid fa-arrow-right-arrow-left py-3"></i>
+              </div>
+              <div class="mycard card-body text-center">
+                <p class="card-title text-dark">Wine bottle lantern</p>
+                <p>Accessories</p>
+                <a href="#"><h6>$399.00</h6></a>
+                <div class="myhidesection box-hide">
+                  <p style="color: #7f7f7f" class="card-text text-center">
+                    Consequat a scelerisque suspendisse vel et eget eu vitae
+                    adipiscing nibh scelerisque semper cum adipiscing facilisis
+                    adipiscing est accumsan lorem vestibulum. Aliquet mus a
+                    aptent ullam corper metus accumsan. Habitasse a purus nec
+                    ipsum a urna ac ullamcorper varius metus blandit posuere.
+                  </p>
+                  <div class="d-flex justify-content-around">
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <button
+                      style="background-color: #83b735; border: 0; color: #fff"
+                      type="button"
+                    >
+                      <b>VIEW PRODUCTS</b>
+                    </button>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-3 pt-2">
+            <div class="card">
+              <a id="picture" href="#"
+                ><img
+                  id="pctr3"
+                  src="assets/img/pctr6(1).jpg"
+                  class="card-img-top"
+                  alt=""
+              /></a>
+              <div
+                class="myicon d-flex align-items-center justify-content-between py-3 px-3"
+              >
+                <div class="buttons pt-3">
+                  <button
+                    id="btn7"
+                    style="
+                      background-color: black;
+                      border: none;
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                    "
+                    type="button"
+                  ></button>
+                  <button
+                    id="btn8"
+                    style="
+                      background-color: grey;
+                      border: none;
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                    "
+                    type="button"
+                  ></button>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left pt-3"></i>
+              </div>
+              <div class="mycard card-body text-center">
+                <p class="card-title text-dark">iPhone Dock</p>
+                <p>Accessories</p>
+                <a href="#"><h6>$249.00</h6></a>
+                <div class="myhidesection box-hide">
+                  <p style="color: #7f7f7f" class="card-text text-center">
+                    Consequat a scelerisque suspendisse vel et eget eu vitae
+                    adipiscing nibh scelerisque semper cum adipiscing facilisis
+                    adipiscing
+                  </p>
+                  <div class="d-flex justify-content-around">
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <button
+                      style="background-color: #83b735; border: 0; color: #fff"
+                      type="button"
+                    >
+                      <b>VIEW PRODUCTS</b>
+                    </button>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-3 pt-2">
+            <div class="card">
+              <a id="picture" href="#"
+                ><img
+                  id="pctr4"
+                  src="assets/img/pctr7(1).jpg"
+                  class="card-img-top"
+                  alt=""
+              /></a>
+              <div
+                class="myicon d-flex align-items-center justify-content-between py-3 px-3"
+              >
+                <div class="buttons pt-3">
+                  <button
+                    id="btn9"
+                    style="
+                      background-color: beige;
+                      border: none;
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                    "
+                    type="button"
+                  ></button>
+                  <button
+                    id="btn10"
+                    style="
+                      background-color: brown;
+                      border: none;
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                    "
+                    type="button"
+                  ></button>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left pt-3"></i>
+              </div>
+              <div class="mycard card-body text-center">
+                <p class="card-title text-dark">Decoration for table pen</p>
+                <p>Accessories</p>
+                <a href="#"><h6>$359.00</h6></a>
+                <div class="myhidesection box-hide">
+                  <p style="color: #7f7f7f" class="card-text text-center">
+                    Adipiscing neque a a montes parturient scelerisque molestie
+                    magnis adipiscing mus porta parturient est a blandit fusce
+                    adipiscing augue per magnis venenatis ullamcorper.
+                  </p>
+                  <div class="d-flex justify-content-around">
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <button
+                      style="background-color: #83b735; border: 0; color: #fff"
+                      type="button"
+                    >
+                      <b>VIEW PRODUCTS</b>
+                    </button>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-3 pt-2">
+            <div class="card">
+              <a id="picture" href="#"
+                ><img
+                  id="pctr5"
+                  src="assets/img/pctr8(1).jpg"
+                  class="card-img-top"
+                  alt=""
+              /></a>
+              <div
+                class="myicon d-flex align-items-center justify-content-between py-3 px-3"
+              >
+                <div class="buttons pt-3">
+                  <button
+                    id="btn11"
+                    style="
+                      background-color: black;
+                      border: none;
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                    "
+                    type="button"
+                  ></button>
+                  <button
+                    id="btn12"
+                    style="
+                      background-color: grey;
+                      border: none;
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                    "
+                    type="button"
+                  ></button>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left pt-3"></i>
+              </div>
+              <div class="mycard card-body text-center">
+                <p class="card-title text-dark">Eames lounge chair</p>
+                <p>Furniture</p>
+                <a href="#"><h6>$399.00</h6></a>
+                <div class="myhidesection box-hide">
+                  <p style="color: #7f7f7f" class="card-text text-center">
+                    Placerat tempor dolor eu leo ullamcorper et magnis habitant
+                    ultrices consectetur arcu nulla mattis fermentum adipiscing
+                    a et bibendum sed platea malesuada eget vestibulum.
+                  </p>
+                  <div class="d-flex justify-content-around">
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <button
+                      style="background-color: #83b735; border: 0; color: #fff"
+                      type="button"
+                    >
+                      <b>VIEW PRODUCTS</b>
+                    </button>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/bootsrap/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

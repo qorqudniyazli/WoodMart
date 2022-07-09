@@ -1,0 +1,48 @@
+.light2{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    .text-center{
+        h2{
+            font-size: 24px;
+        }
+        p{
+            font-size: 14px;
+            color: #A5A5B9;
+        }
+    }
+    .jc-card{
+        width: 586px;
+        height: 586px;
+    }
+
+}
+
+.gallery{
+    .col-6{
+        width: 49% !important;
+    }
+}
+
+
+
+.dark2{
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    .text-center{
+        h2{
+            color: #fff;
+            font-size: 24px;
+        }
+        p{
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+    .jc-card{
+        width: 586px;
+        height: 586px;
+    }
+
+}

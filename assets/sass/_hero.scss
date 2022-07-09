@@ -1,0 +1,128 @@
+.dark1{
+    // transition: 1s;
+    position: relative;
+    background-color: #000;
+    width: 100%;
+    height: 495px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    #picture{
+        h1{
+            color: #fff;
+            font-size: 52px;
+        }
+        h5{
+            font-size: 18px;
+            color: #fff;
+        }
+        p{
+            font-size: 16px;
+            color: #fff;
+        }
+        h3{
+            font-size: 32px;
+            color: #83B735;
+        }
+    }
+
+    #a{
+        display: none;
+      }
+
+    #menu{
+        position: absolute;
+        z-index: 1;
+        transform: translateX(-289px);
+        
+        width: 30%;
+        height: auto;
+        #menu1{
+            transform: translateY(-30px);
+            :hover{
+                background-color: #000;
+            }
+            background-color: #000;
+            border-bottom: 1px solid #e8e8e8;
+            border-right: 1px solid #e8e8e8;
+            border-left: 1px solid #e8e8e8;
+            width: 268px;
+            height: 44px;
+            P{
+                img{
+                    background-color: #fff;
+                }
+                color: #fff;
+                font-size: 14px;
+                line-height: 20px;
+               // backgraund-color: #3333 !important;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+.light1{
+    // transition: 1s;
+    position: relative;
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 495px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    #picture{
+        h1{
+            font-size: 52px;
+        }
+        h5{
+            font-size: 18px;
+            color: #777777;
+        }
+        p{
+            font-size: 16px;
+            color: #B7B7B7;
+        }
+        h3{
+            font-size: 32px;
+            color: #83B735;
+        }
+    }
+
+    #a{
+        display: none;
+      }
+
+    #menu{
+        position: absolute;
+        z-index: 1;
+        transform: translateX(-289px);
+        
+        width: 30%;
+        height: auto;
+        #menu1{
+            transform: translateY(-30px);
+            :hover{
+                background-color: #F7F7F7;
+            }
+            background-color: #fff;
+            border-bottom: 1px solid #e8e8e8;
+            border-right: 1px solid #e8e8e8;
+            border-left: 1px solid #e8e8e8;
+            width: 268px;
+            height: 44px;
+            P{
+                font-size: 14px;
+                line-height: 20px;
+               // backgraund-color: #3333 !important;
+                font-weight: 600;
+            }
+        }
+    }
+}
+

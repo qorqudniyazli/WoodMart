@@ -113,7 +113,7 @@ btn12.onclick = picture12;
 
 
 
-document.querySelector('#mode12').onclick =()=>{
+document.querySelector('#modeBtn').onclick =()=>{
     if (document.querySelector('#mode').className == 'light') {
         document.querySelector('#nav').className = 'mynav navbar navbar-black navbar-expand-lg bg-black';
         document.querySelector('#mode').className = 'dark';
